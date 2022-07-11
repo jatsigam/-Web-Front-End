@@ -1,0 +1,85 @@
+
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color:orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+/* h4 formatting */
+h4{	
+	margin-bottom:-10px;
+  }
+
+  /* List ID formatting */
+  #comp{
+	  font-style: italic;
+  }
+
+/* Checkbox formatting */
+.checkbox{
+	display: inline-flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+/* h3 formatting */
+h3{	
+	margin-bottom:-10px;
+	color:crimson;
+  }
+
+  /* about me font color */
+  .about_me{
+	  color:rgb(24, 23, 23);
+  }
+  
+  /* Buttons */
+  .btn {
+	background-color: yellow;
+	border:none;
+	color:crimson;
+	text-align: center;
+	text-decoration: none;
+	padding: 15px;
+	display: inline-flex;
+	font-weight: bold;
+	font-family: "Open Sans", sans-serif;
+	font-size: 15px;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+
+
